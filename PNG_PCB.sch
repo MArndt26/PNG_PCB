@@ -230,8 +230,6 @@ Wire Wire Line
 	7300 3250 6700 3250
 Text Label 6700 3250 0    50   ~ 0
 sync_in
-Text Notes 4100 6050 0    197  ~ 0
-todo: need to do something with sync output
 Text Label 1150 850  0    50   ~ 0
 selA
 Text Label 1150 950  0    50   ~ 0

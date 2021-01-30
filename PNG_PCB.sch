@@ -187,17 +187,14 @@ NoConn ~ 9500 1500
 $Comp
 L power:GND #PWR02
 U 1 1 601A93E9
-P 7150 1650
-F 0 "#PWR02" H 7150 1400 50  0001 C CNN
-F 1 "GND" H 7155 1477 50  0000 C CNN
-F 2 "" H 7150 1650 50  0001 C CNN
-F 3 "" H 7150 1650 50  0001 C CNN
-	1    7150 1650
-	1    0    0    -1  
+P 7300 1650
+F 0 "#PWR02" H 7300 1400 50  0001 C CNN
+F 1 "GND" V 7305 1522 50  0000 R CNN
+F 2 "" H 7300 1650 50  0001 C CNN
+F 3 "" H 7300 1650 50  0001 C CNN
+	1    7300 1650
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7300 1650 7150 1650
-NoConn ~ 7300 1750
 NoConn ~ 7300 1850
 NoConn ~ 7300 1950
 NoConn ~ 7300 2050
@@ -232,7 +229,7 @@ NoConn ~ 7300 3950
 Wire Wire Line
 	7300 3250 6700 3250
 Text Label 6700 3250 0    50   ~ 0
-sync_out
+sync_in
 Text Notes 4100 6050 0    197  ~ 0
 todo: need to do something with sync output
 Text Label 1150 850  0    50   ~ 0
@@ -366,7 +363,7 @@ ADC_IN_9
 Wire Wire Line
 	5000 3250 4400 3250
 Text Label 4400 3250 0    50   ~ 0
-sync_out
+sync_in
 $Comp
 L PNG_PCB_Parts:screw_term U?
 U 1 1 601BAD2F
@@ -376,6 +373,25 @@ F 1 "screw_term" H 5058 3293 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3250 50  0001 C CNN
 F 3 "" H 5000 3250 50  0001 C CNN
 	1    5000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1750 6700 1750
+Text Label 6700 1750 0    50   ~ 0
+sync_out
+Wire Wire Line
+	5000 3600 4400 3600
+Text Label 4400 3600 0    50   ~ 0
+sync_out
+$Comp
+L PNG_PCB_Parts:screw_term U?
+U 2 1 601BD94C
+P 5000 3600
+F 0 "U?" H 5058 3734 50  0000 L CNN
+F 1 "screw_term" H 5058 3643 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3600 50  0001 C CNN
+F 3 "" H 5000 3600 50  0001 C CNN
+	2    5000 3600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

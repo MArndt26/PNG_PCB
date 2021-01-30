@@ -363,4 +363,19 @@ Wire Wire Line
 	2500 6450 3250 6450
 Text Label 3250 6450 2    50   ~ 0
 ADC_IN_9
+Wire Wire Line
+	5000 3250 4400 3250
+Text Label 4400 3250 0    50   ~ 0
+sync_out
+$Comp
+L PNG_PCB_Parts:screw_term U?
+U 1 1 601BAD2F
+P 5000 3250
+F 0 "U?" H 5058 3384 50  0000 L CNN
+F 1 "screw_term" H 5058 3293 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3250 50  0001 C CNN
+F 3 "" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -105,19 +105,6 @@ X selB 9 -500 50 100 R 50 50 3 1 I
 ENDDRAW
 ENDDEF
 #
-# PNG_PCB_Parts_screw_term
-#
-DEF PNG_PCB_Parts_screw_term U 0 40 Y Y 2 L N
-F0 "U" 0 0 50 H V C CNN
-F1 "PNG_PCB_Parts_screw_term" 0 0 50 H V C CNN
-F2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-X a 1 0 0 100 U 50 50 1 1 I
-X b 2 0 0 100 U 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P

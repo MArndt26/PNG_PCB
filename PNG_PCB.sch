@@ -358,40 +358,14 @@ Wire Wire Line
 	2500 6450 3250 6450
 Text Label 3250 6450 2    50   ~ 0
 ADC_IN_9
-Wire Wire Line
-	5000 3250 4400 3250
-Text Label 4400 3250 0    50   ~ 0
+Text Label 5900 4300 2    50   ~ 0
 sync_in
-$Comp
-L PNG_PCB_Parts:screw_term U1
-U 1 1 601BAD2F
-P 5000 3250
-F 0 "U1" H 5058 3384 50  0000 L CNN
-F 1 "screw_term" H 5058 3293 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3250 50  0001 C CNN
-F 3 "" H 5000 3250 50  0001 C CNN
-	1    5000 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 1750 6700 1750
 Text Label 6700 1750 0    50   ~ 0
 sync_out
-Wire Wire Line
-	5000 3600 4400 3600
-Text Label 4400 3600 0    50   ~ 0
+Text Label 5900 4200 2    50   ~ 0
 sync_out
-$Comp
-L PNG_PCB_Parts:screw_term U1
-U 2 1 601BD94C
-P 5000 3600
-F 0 "U1" H 5058 3734 50  0000 L CNN
-F 1 "screw_term" H 5058 3643 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3600 50  0001 C CNN
-F 3 "" H 5000 3600 50  0001 C CNN
-	2    5000 3600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9500 2950
 NoConn ~ 9500 3050
 NoConn ~ 9500 3150
@@ -403,4 +377,19 @@ NoConn ~ 9500 3650
 NoConn ~ 9500 3750
 NoConn ~ 9500 3850
 NoConn ~ 9500 3950
+$Comp
+L Connector:Conn_01x02_Male J91
+U 1 1 601A940A
+P 5050 4200
+F 0 "J91" H 5158 4381 50  0000 C CNN
+F 1 "screw terminal" H 5158 4290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 4200 50  0001 C CNN
+F 3 "~" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4200 5900 4200
+Wire Wire Line
+	5250 4300 5900 4300
 $EndSCHEMATC

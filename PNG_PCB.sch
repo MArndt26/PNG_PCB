@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L teensy:Teensy4.1 U2
+L teensy:Teensy4.1 U1
 U 1 1 60133249
 P 8400 3800
-F 0 "U2" H 8400 6365 50  0000 C CNN
+F 0 "U1" H 8400 6365 50  0000 C CNN
 F 1 "Teensy4.1" H 8400 6274 50  0000 C CNN
 F 2 "teensy:Teensy41" H 8000 4200 50  0001 C CNN
 F 3 "" H 8000 4200 50  0001 C CNN
@@ -378,10 +378,10 @@ NoConn ~ 9500 3750
 NoConn ~ 9500 3850
 NoConn ~ 9500 3950
 $Comp
-L Connector:Conn_01x02_Male J91
+L Connector:Conn_01x02_Male J1
 U 1 1 601A940A
 P 5050 4200
-F 0 "J91" H 5158 4381 50  0000 C CNN
+F 0 "J1" H 5158 4381 50  0000 C CNN
 F 1 "screw terminal" H 5158 4290 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 4200 50  0001 C CNN
 F 3 "~" H 5050 4200 50  0001 C CNN

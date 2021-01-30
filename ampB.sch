@@ -278,11 +278,11 @@ P 3350 2050
 AR Path="/60132BC3/6013AE22/60198F2C" Ref="U?"  Part="1" 
 AR Path="/6017CC5E/60198F2C" Ref="U?"  Part="1" 
 AR Path="/6017DA21/60198F2C" Ref="U?"  Part="1" 
-AR Path="/601927EB/60198F2C" Ref="U05"  Part="2" 
+AR Path="/601927EB/60198F2C" Ref="#U05"  Part="2" 
 AR Path="/6019DBCE/60198F2C" Ref="U?"  Part="2" 
-AR Path="/601B4C11/60198F2C" Ref="U016"  Part="2" 
-AR Path="/601B73BA/60198F2C" Ref="U026"  Part="2" 
-F 0 "U026" H 3375 2515 50  0000 C CNN
+AR Path="/601B4C11/60198F2C" Ref="#U016"  Part="2" 
+AR Path="/601B73BA/60198F2C" Ref="#U026"  Part="2" 
+F 0 "#U026" H 3375 2515 50  0000 C CNN
 F 1 "Mux" H 3375 2424 50  0000 C CNN
 F 2 "" H 3350 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3350 2050 50  0001 C CNN

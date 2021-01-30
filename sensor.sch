@@ -1,0 +1,282 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 6019C1B1
+P 5400 3600
+AR Path="/60132BC3/6013AE22/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/6017DA21/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601927EB/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/6019C043/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/60194350/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/60194350/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019C1B1" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019C1B1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 3350 50  0001 C CNN
+F 1 "GND" H 5405 3427 50  0000 C CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6019C1B2
+P 5400 3200
+AR Path="/60132BC3/6013AE22/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/6017DA21/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601927EB/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/6019C043/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B73B7/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/60194350/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B73B7/60194350/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019C1B2" Ref="R?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019C1B2" Ref="R?"  Part="1" 
+F 0 "R?" H 5470 3246 50  0000 L CNN
+F 1 "560" H 5470 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 3200 50  0001 C CNN
+F 3 "~" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6019C1B3
+P 5200 3500
+AR Path="/6017CC5E/60194350/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/601B73B7/60194350/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019C1B3" Ref="J?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019C1B3" Ref="J?"  Part="1" 
+F 0 "J?" H 5000 3500 50  0000 C CNN
+F 1 "screw term" H 4950 3400 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5200 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3350 5400 3500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 601968DA
+P 5400 3050
+AR Path="/6017CC5E/60194350/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019B999/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/60194350/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019B999/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/60194350/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019B999/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/601968DA" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/601968DA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 2900 50  0001 C CNN
+F 1 "+3.3V" H 5415 3223 50  0000 C CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 3050 0    50   ~ 0
+Note: Strain Gauge connected\nacross screw terminals
+Text HLabel 5400 3500 2    50   Input ~ 0
+Vsense
+$Comp
+L power:GND #PWR?
+U 1 1 6019BD32
+P 5400 3600
+AR Path="/60132BC3/6013AE22/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/6017DA21/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601927EB/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/6019C043/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/60194350/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/60194350/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019BD32" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019BD32" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 3350 50  0001 C CNN
+F 1 "GND" H 5405 3427 50  0000 C CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6019BD33
+P 5400 3200
+AR Path="/60132BC3/6013AE22/6019BD33" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/6019BD33" Ref="R?"  Part="1" 
+AR Path="/6017DA21/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601927EB/6019BD33" Ref="R?"  Part="1" 
+AR Path="/6019C043/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B73B7/6019BD33" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/60194350/6019BD33" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019BD33" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B73B7/60194350/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019BD33" Ref="R?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019BD33" Ref="R?"  Part="1" 
+F 0 "R?" H 5470 3246 50  0000 L CNN
+F 1 "560" H 5470 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 3200 50  0001 C CNN
+F 3 "~" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6019BD34
+P 5200 3500
+AR Path="/6017CC5E/60194350/6019BD34" Ref="J?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019BD34" Ref="J?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019BD34" Ref="J?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019BD34" Ref="J?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019BD34" Ref="J?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019BD34" Ref="J?"  Part="1" 
+AR Path="/601B73B7/60194350/6019BD34" Ref="J?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019BD34" Ref="J?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019BD34" Ref="J?"  Part="1" 
+F 0 "J?" H 5000 3500 50  0000 C CNN
+F 1 "screw term" H 4950 3400 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5200 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3350 5400 3500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6019BD35
+P 5400 3050
+AR Path="/6017CC5E/60194350/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019B999/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/6019BDB6/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/60194350/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019B999/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/6019BDB6/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/60194350/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019B999/6019BD35" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/6019BDB6/6019BD35" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 2900 50  0001 C CNN
+F 1 "+3.3V" H 5415 3223 50  0000 C CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 3050 0    50   ~ 0
+Note: Strain Gauge connected\nacross screw terminals
+Text HLabel 5400 3500 2    50   Input ~ 0
+Vsense
+$Comp
+L power:GND #PWR?
+U 1 1 60194B46
+P 5400 3600
+AR Path="/60132BC3/6013AE22/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/6017DA21/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/601927EB/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/6019C043/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/601B4C0E/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/601B73B7/60194B46" Ref="#PWR?"  Part="1" 
+AR Path="/6017CC5E/60194350/60194B46" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 3350 50  0001 C CNN
+F 1 "GND" H 5405 3427 50  0000 C CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60194B4C
+P 5400 3200
+AR Path="/60132BC3/6013AE22/60194B4C" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/60194B4C" Ref="R?"  Part="1" 
+AR Path="/6017DA21/60194B4C" Ref="R?"  Part="1" 
+AR Path="/601927EB/60194B4C" Ref="R?"  Part="1" 
+AR Path="/6019C043/60194B4C" Ref="R?"  Part="1" 
+AR Path="/601B4C0E/60194B4C" Ref="R?"  Part="1" 
+AR Path="/601B73B7/60194B4C" Ref="R?"  Part="1" 
+AR Path="/6017CC5E/60194350/60194B4C" Ref="R?"  Part="1" 
+F 0 "R?" H 5470 3246 50  0000 L CNN
+F 1 "560" H 5470 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 3200 50  0001 C CNN
+F 3 "~" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60194E45
+P 5200 3500
+F 0 "J?" H 5000 3500 50  0000 C CNN
+F 1 "screw term" H 4950 3400 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5200 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3350 5400 3500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6019C1B4
+P 5400 3050
+F 0 "#PWR?" H 5400 2900 50  0001 C CNN
+F 1 "+3.3V" H 5415 3223 50  0000 C CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 3050 0    50   ~ 0
+Note: Strain Gauge connected\nacross screw terminals
+Text HLabel 5400 3500 2    50   Input ~ 0
+Vsense
+$EndSCHEMATC

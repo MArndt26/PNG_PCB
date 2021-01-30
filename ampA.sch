@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -13,24 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR?
-U 1 1 6013BAC9
-P 1450 2100
-AR Path="/60132BC3/6013AE22/6013BAC9" Ref="#PWR?"  Part="1" 
-AR Path="/6017CC5E/6013BAC9" Ref="#PWR08"  Part="1" 
-AR Path="/6017DA21/6013BAC9" Ref="#PWR?"  Part="1" 
-AR Path="/601927EB/6013BAC9" Ref="#PWR?"  Part="1" 
-AR Path="/6019C043/6013BAC9" Ref="#PWR?"  Part="1" 
-AR Path="/601B4C0E/6013BAC9" Ref="#PWR038"  Part="1" 
-AR Path="/601B73B7/6013BAC9" Ref="#PWR068"  Part="1" 
-F 0 "#PWR08" H 1450 1850 50  0001 C CNN
-F 1 "GND" H 1455 1927 50  0000 C CNN
-F 2 "" H 1450 2100 50  0001 C CNN
-F 3 "" H 1450 2100 50  0001 C CNN
-	1    1450 2100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 6019D565
@@ -235,165 +217,10 @@ F 3 "" H 5450 4200 50  0001 C CNN
 $EndComp
 Text HLabel 6600 3800 2    50   Input ~ 0
 out
-$Comp
-L Device:R R?
-U 1 1 6016D691
-P 1450 1950
-AR Path="/60132BC3/6013AE22/6016D691" Ref="R?"  Part="1" 
-AR Path="/6017CC5E/6016D691" Ref="R1"  Part="1" 
-AR Path="/6017DA21/6016D691" Ref="R?"  Part="1" 
-AR Path="/601927EB/6016D691" Ref="R?"  Part="1" 
-AR Path="/6019C043/6016D691" Ref="R?"  Part="1" 
-AR Path="/601B4C0E/6016D691" Ref="R37"  Part="1" 
-AR Path="/601B73B7/6016D691" Ref="R73"  Part="1" 
-F 0 "R1" H 1520 1996 50  0000 L CNN
-F 1 "330" H 1520 1905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1380 1950 50  0001 C CNN
-F 3 "~" H 1450 1950 50  0001 C CNN
-	1    1450 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L PNG_PCB_Parts:screw_term U?
-U 1 1 6016FA62
-P 1450 1800
-AR Path="/60132BC3/6013AE22/6016FA62" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/6016FA62" Ref="U3"  Part="1" 
-AR Path="/6017DA21/6016FA62" Ref="U?"  Part="1" 
-AR Path="/601927EB/6016FA62" Ref="U?"  Part="1" 
-AR Path="/6019C043/6016FA62" Ref="U?"  Part="1" 
-AR Path="/601B4C0E/6016FA62" Ref="U12"  Part="1" 
-AR Path="/601B73B7/6016FA62" Ref="U21"  Part="1" 
-F 0 "U3" H 1508 1934 50  0000 L CNN
-F 1 "screw_term" H 1508 1843 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 1800 50  0001 C CNN
-F 3 "" H 1450 1800 50  0001 C CNN
-	1    1450 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1450 1800 1000 1800
-Connection ~ 1450 1800
-Text Label 1000 1800 0    50   ~ 0
+	1600 2000 2050 2000
+Text Label 2050 2000 2    50   ~ 0
 mux0
-$Comp
-L power:GND #PWR?
-U 1 1 6019D559
-P 1450 3050
-AR Path="/60132BC3/6013AE22/6019D559" Ref="#PWR?"  Part="1" 
-AR Path="/6017CC5E/6019D559" Ref="#PWR09"  Part="1" 
-AR Path="/6017DA21/6019D559" Ref="#PWR?"  Part="1" 
-AR Path="/601927EB/6019D559" Ref="#PWR?"  Part="1" 
-AR Path="/6019C043/6019D559" Ref="#PWR?"  Part="1" 
-AR Path="/601B4C0E/6019D559" Ref="#PWR039"  Part="1" 
-AR Path="/601B73B7/6019D559" Ref="#PWR069"  Part="1" 
-F 0 "#PWR09" H 1450 2800 50  0001 C CNN
-F 1 "GND" H 1455 2877 50  0000 C CNN
-F 2 "" H 1450 3050 50  0001 C CNN
-F 3 "" H 1450 3050 50  0001 C CNN
-	1    1450 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6019D56A
-P 1450 2900
-AR Path="/60132BC3/6013AE22/6019D56A" Ref="R?"  Part="1" 
-AR Path="/6017CC5E/6019D56A" Ref="R2"  Part="1" 
-AR Path="/6017DA21/6019D56A" Ref="R?"  Part="1" 
-AR Path="/601927EB/6019D56A" Ref="R?"  Part="1" 
-AR Path="/6019C043/6019D56A" Ref="R?"  Part="1" 
-AR Path="/601B4C0E/6019D56A" Ref="R38"  Part="1" 
-AR Path="/601B73B7/6019D56A" Ref="R74"  Part="1" 
-F 0 "R2" H 1520 2946 50  0000 L CNN
-F 1 "330" H 1520 2855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1380 2900 50  0001 C CNN
-F 3 "~" H 1450 2900 50  0001 C CNN
-	1    1450 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L PNG_PCB_Parts:screw_term U?
-U 2 1 60176F25
-P 1450 2750
-AR Path="/60132BC3/6013AE22/60176F25" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/60176F25" Ref="U3"  Part="2" 
-AR Path="/6017DA21/60176F25" Ref="U?"  Part="1" 
-AR Path="/601927EB/60176F25" Ref="U?"  Part="2" 
-AR Path="/6019C043/60176F25" Ref="U?"  Part="2" 
-AR Path="/601B4C0E/60176F25" Ref="U12"  Part="2" 
-AR Path="/601B73B7/60176F25" Ref="U21"  Part="2" 
-F 0 "U3" H 1508 2884 50  0000 L CNN
-F 1 "screw_term" H 1508 2793 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 2750 50  0001 C CNN
-F 3 "" H 1450 2750 50  0001 C CNN
-	2    1450 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 2750 1000 2750
-Connection ~ 1450 2750
-Text Label 1000 2750 0    50   ~ 0
-mux1
-$Comp
-L power:GND #PWR?
-U 1 1 6019D55B
-P 1450 4050
-AR Path="/60132BC3/6013AE22/6019D55B" Ref="#PWR?"  Part="1" 
-AR Path="/6017CC5E/6019D55B" Ref="#PWR010"  Part="1" 
-AR Path="/6017DA21/6019D55B" Ref="#PWR?"  Part="1" 
-AR Path="/601927EB/6019D55B" Ref="#PWR?"  Part="1" 
-AR Path="/6019C043/6019D55B" Ref="#PWR?"  Part="1" 
-AR Path="/601B4C0E/6019D55B" Ref="#PWR040"  Part="1" 
-AR Path="/601B73B7/6019D55B" Ref="#PWR070"  Part="1" 
-F 0 "#PWR010" H 1450 3800 50  0001 C CNN
-F 1 "GND" H 1455 3877 50  0000 C CNN
-F 2 "" H 1450 4050 50  0001 C CNN
-F 3 "" H 1450 4050 50  0001 C CNN
-	1    1450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6017E43F
-P 1450 3900
-AR Path="/60132BC3/6013AE22/6017E43F" Ref="R?"  Part="1" 
-AR Path="/6017CC5E/6017E43F" Ref="R3"  Part="1" 
-AR Path="/6017DA21/6017E43F" Ref="R?"  Part="1" 
-AR Path="/601927EB/6017E43F" Ref="R?"  Part="1" 
-AR Path="/6019C043/6017E43F" Ref="R?"  Part="1" 
-AR Path="/601B4C0E/6017E43F" Ref="R39"  Part="1" 
-AR Path="/601B73B7/6017E43F" Ref="R75"  Part="1" 
-F 0 "R3" H 1520 3946 50  0000 L CNN
-F 1 "330" H 1520 3855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1380 3900 50  0001 C CNN
-F 3 "~" H 1450 3900 50  0001 C CNN
-	1    1450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L PNG_PCB_Parts:screw_term U?
-U 1 1 6019D55C
-P 1450 3750
-AR Path="/60132BC3/6013AE22/6019D55C" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/6019D55C" Ref="U4"  Part="1" 
-AR Path="/6017DA21/6019D55C" Ref="U?"  Part="1" 
-AR Path="/601927EB/6019D55C" Ref="U?"  Part="1" 
-AR Path="/6019C043/6019D55C" Ref="U?"  Part="1" 
-AR Path="/601B4C0E/6019D55C" Ref="U13"  Part="1" 
-AR Path="/601B73B7/6019D55C" Ref="U22"  Part="1" 
-F 0 "U4" H 1508 3884 50  0000 L CNN
-F 1 "screw_term" H 1508 3793 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 3750 50  0001 C CNN
-F 3 "" H 1450 3750 50  0001 C CNN
-	1    1450 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 3750 1000 3750
-Connection ~ 1450 3750
-Text Label 1000 3750 0    50   ~ 0
-mux2
 Wire Wire Line
 	3150 1850 2700 1850
 Text Label 2700 1850 0    50   ~ 0
@@ -540,4 +367,33 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7300 2250 50 
 	5    7250 2050
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 1050 1900 550  200 
+U 60194350
+F0 "sensor0" 50
+F1 "sensor.sch" 50
+F2 "Vsense" I R 1600 2000 50 
+$EndSheet
+Wire Wire Line
+	1600 2550 2050 2550
+Text Label 2050 2550 2    50   ~ 0
+mux1
+$Sheet
+S 1050 2450 550  200 
+U 6019B999
+F0 "sensor1" 50
+F1 "sensor.sch" 50
+F2 "Vsense" I R 1600 2550 50 
+$EndSheet
+Wire Wire Line
+	1600 3050 2050 3050
+Text Label 2050 3050 2    50   ~ 0
+mux2
+$Sheet
+S 1050 2950 550  200 
+U 6019BDB6
+F0 "sensor2" 50
+F1 "sensor.sch" 50
+F2 "Vsense" I R 1600 3050 50 
+$EndSheet
 $EndSCHEMATC

@@ -36,13 +36,13 @@ L Amplifier_Operational:TL084 U?
 U 1 1 60198F31
 P 6000 3800
 AR Path="/60132BC3/6013AE22/60198F31" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/60198F31" Ref="U7"  Part="1" 
+AR Path="/6017CC5E/60198F31" Ref="U6"  Part="1" 
 AR Path="/6017DA21/60198F31" Ref="U?"  Part="1" 
 AR Path="/601927EB/60198F31" Ref="U?"  Part="1" 
 AR Path="/6019C043/60198F31" Ref="U?"  Part="1" 
-AR Path="/601B4C0E/60198F31" Ref="U12"  Part="1" 
-AR Path="/601B73B7/60198F31" Ref="U28"  Part="1" 
-F 0 "U28" H 6000 3433 50  0000 C CNN
+AR Path="/601B4C0E/60198F31" Ref="U15"  Part="1" 
+AR Path="/601B73B7/60198F31" Ref="U24"  Part="1" 
+F 0 "U24" H 6000 3433 50  0000 C CNN
 F 1 "TL084" H 6000 3524 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5950 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6050 4000 50  0001 C CNN
@@ -272,35 +272,17 @@ F 3 "~" H 1450 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PNG_PCB_Parts:Mux U?
-U 1 1 601709E6
-P 3350 2050
-AR Path="/60132BC3/6013AE22/601709E6" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/601709E6" Ref="#U05"  Part="1" 
-AR Path="/6017DA21/601709E6" Ref="U?"  Part="1" 
-AR Path="/601927EB/601709E6" Ref="U?"  Part="1" 
-AR Path="/6019C043/601709E6" Ref="U?"  Part="1" 
-AR Path="/601B4C0E/601709E6" Ref="#U016"  Part="1" 
-AR Path="/601B73B7/601709E6" Ref="#U026"  Part="1" 
-F 0 "#U026" H 3375 2515 50  0000 C CNN
-F 1 "Mux" H 3375 2424 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
-F 3 "" H 3350 2050 50  0001 C CNN
-	1    3350 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L PNG_PCB_Parts:screw_term U?
 U 1 1 6016FA62
 P 1450 1800
 AR Path="/60132BC3/6013AE22/6016FA62" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/6016FA62" Ref="U2"  Part="1" 
+AR Path="/6017CC5E/6016FA62" Ref="U3"  Part="1" 
 AR Path="/6017DA21/6016FA62" Ref="U?"  Part="1" 
 AR Path="/601927EB/6016FA62" Ref="U?"  Part="1" 
 AR Path="/6019C043/6016FA62" Ref="U?"  Part="1" 
-AR Path="/601B4C0E/6016FA62" Ref="U14"  Part="1" 
-AR Path="/601B73B7/6016FA62" Ref="U24"  Part="1" 
-F 0 "U24" H 1508 1934 50  0000 L CNN
+AR Path="/601B4C0E/6016FA62" Ref="U12"  Part="1" 
+AR Path="/601B73B7/6016FA62" Ref="U21"  Part="1" 
+F 0 "U21" H 1508 1934 50  0000 L CNN
 F 1 "screw_term" H 1508 1843 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 1800 50  0001 C CNN
 F 3 "" H 1450 1800 50  0001 C CNN
@@ -357,9 +339,9 @@ AR Path="/6017CC5E/60176F25" Ref="U3"  Part="2"
 AR Path="/6017DA21/60176F25" Ref="U?"  Part="1" 
 AR Path="/601927EB/60176F25" Ref="U?"  Part="2" 
 AR Path="/6019C043/60176F25" Ref="U?"  Part="2" 
-AR Path="/601B4C0E/60176F25" Ref="U15"  Part="2" 
-AR Path="/601B73B7/60176F25" Ref="U25"  Part="2" 
-F 0 "U25" H 1508 2884 50  0000 L CNN
+AR Path="/601B4C0E/60176F25" Ref="U12"  Part="2" 
+AR Path="/601B73B7/60176F25" Ref="U21"  Part="2" 
+F 0 "U21" H 1508 2884 50  0000 L CNN
 F 1 "screw_term" H 1508 2793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 2750 50  0001 C CNN
 F 3 "" H 1450 2750 50  0001 C CNN
@@ -416,9 +398,9 @@ AR Path="/6017CC5E/6019D55C" Ref="U4"  Part="1"
 AR Path="/6017DA21/6019D55C" Ref="U?"  Part="1" 
 AR Path="/601927EB/6019D55C" Ref="U?"  Part="1" 
 AR Path="/6019C043/6019D55C" Ref="U?"  Part="1" 
-AR Path="/601B4C0E/6019D55C" Ref="U15"  Part="1" 
-AR Path="/601B73B7/6019D55C" Ref="U25"  Part="1" 
-F 0 "U25" H 1508 3884 50  0000 L CNN
+AR Path="/601B4C0E/6019D55C" Ref="U13"  Part="1" 
+AR Path="/601B73B7/6019D55C" Ref="U22"  Part="1" 
+F 0 "U22" H 1508 3884 50  0000 L CNN
 F 1 "screw_term" H 1508 3793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 3750 50  0001 C CNN
 F 3 "" H 1450 3750 50  0001 C CNN
@@ -443,22 +425,6 @@ Text Label 2700 1950 0    50   ~ 0
 mux1
 Text Label 2700 2150 0    50   ~ 0
 mux2
-$Comp
-L PNG_PCB_Parts:Mux #U06
-U 3 1 60186A46
-P 5700 2100
-AR Path="/6017CC5E/60186A46" Ref="#U06"  Part="3" 
-AR Path="/601927EB/60186A46" Ref="U?"  Part="3" 
-AR Path="/6019C043/60186A46" Ref="U?"  Part="3" 
-AR Path="/601B4C0E/60186A46" Ref="#U017"  Part="3" 
-AR Path="/601B73B7/60186A46" Ref="#U027"  Part="3" 
-F 0 "#U027" H 5928 2221 50  0000 L CNN
-F 1 "TL084" H 5928 2130 50  0000 L CNN
-F 2 "" H 5700 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5700 2100 50  0001 C CNN
-	3    5700 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2300 5700 2300
 Connection ~ 5700 2300
@@ -507,13 +473,13 @@ L Amplifier_Operational:TL084 U?
 U 5 1 60194917
 P 7050 2050
 AR Path="/60132BC3/6013AE22/60194917" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/60194917" Ref="U7"  Part="5" 
+AR Path="/6017CC5E/60194917" Ref="U6"  Part="5" 
 AR Path="/6017DA21/60194917" Ref="U?"  Part="1" 
 AR Path="/601927EB/60194917" Ref="U?"  Part="1" 
 AR Path="/6019C043/60194917" Ref="U?"  Part="5" 
-AR Path="/601B4C0E/60194917" Ref="U12"  Part="5" 
-AR Path="/601B73B7/60194917" Ref="U28"  Part="5" 
-F 0 "U28" H 6863 2004 50  0000 R CNN
+AR Path="/601B4C0E/60194917" Ref="U15"  Part="5" 
+AR Path="/601B73B7/60194917" Ref="U24"  Part="5" 
+F 0 "U24" H 6863 2004 50  0000 R CNN
 F 1 "TL084" H 6863 2095 50  0000 R CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 7000 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7100 2250 50  0001 C CNN
@@ -552,6 +518,34 @@ F 1 "+3.3V" H 7165 1923 50  0000 C CNN
 F 2 "" H 7150 1750 50  0001 C CNN
 F 3 "" H 7150 1750 50  0001 C CNN
 	1    7150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNG_PCB_Parts:Mux U5
+U 1 1 6016DEDC
+P 3350 2050
+AR Path="/6017CC5E/6016DEDC" Ref="U5"  Part="1" 
+AR Path="/601B4C0E/6016DEDC" Ref="U14"  Part="1" 
+AR Path="/601B73B7/6016DEDC" Ref="U23"  Part="1" 
+F 0 "U23" H 3375 2515 50  0000 C CNN
+F 1 "Mux" H 3375 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
+F 3 "" H 3350 2050 50  0001 C CNN
+	1    3350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNG_PCB_Parts:Mux U5
+U 3 1 6016F806
+P 5700 2100
+AR Path="/6017CC5E/6016F806" Ref="U5"  Part="3" 
+AR Path="/601B4C0E/6016F806" Ref="U14"  Part="3" 
+AR Path="/601B73B7/6016F806" Ref="U23"  Part="3" 
+F 0 "U23" H 5928 2221 50  0000 L CNN
+F 1 "Mux" H 5928 2130 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5700 2100 50  0001 C CNN
+F 3 "" H 5700 2100 50  0001 C CNN
+	3    5700 2100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L teensy:Teensy4.1 U1
+L teensy:Teensy4.1 U2
 U 1 1 60133249
 P 8400 3800
-F 0 "U1" H 8400 6365 50  0000 C CNN
+F 0 "U2" H 8400 6365 50  0000 C CNN
 F 1 "Teensy4.1" H 8400 6274 50  0000 C CNN
 F 2 "teensy:Teensy41" H 8000 4200 50  0001 C CNN
 F 3 "" H 8000 4200 50  0001 C CNN
@@ -365,10 +365,10 @@ Wire Wire Line
 Text Label 4400 3250 0    50   ~ 0
 sync_in
 $Comp
-L PNG_PCB_Parts:screw_term U31
+L PNG_PCB_Parts:screw_term U1
 U 1 1 601BAD2F
 P 5000 3250
-F 0 "U31" H 5058 3384 50  0000 L CNN
+F 0 "U1" H 5058 3384 50  0000 L CNN
 F 1 "screw_term" H 5058 3293 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3250 50  0001 C CNN
 F 3 "" H 5000 3250 50  0001 C CNN
@@ -384,10 +384,10 @@ Wire Wire Line
 Text Label 4400 3600 0    50   ~ 0
 sync_out
 $Comp
-L PNG_PCB_Parts:screw_term U31
+L PNG_PCB_Parts:screw_term U1
 U 2 1 601BD94C
 P 5000 3600
-F 0 "U31" H 5058 3734 50  0000 L CNN
+F 0 "U1" H 5058 3734 50  0000 L CNN
 F 1 "screw_term" H 5058 3643 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5000 3600 50  0001 C CNN
 F 3 "" H 5000 3600 50  0001 C CNN

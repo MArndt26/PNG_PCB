@@ -38,11 +38,11 @@ P 6000 3800
 AR Path="/60132BC3/6013AE22/6019E3A6" Ref="U?"  Part="1" 
 AR Path="/6017CC5E/6019E3A6" Ref="U?"  Part="1" 
 AR Path="/6017DA21/6019E3A6" Ref="U?"  Part="1" 
-AR Path="/601927EB/6019E3A6" Ref="U7"  Part="2" 
+AR Path="/601927EB/6019E3A6" Ref="U6"  Part="2" 
 AR Path="/6019DBCE/6019E3A6" Ref="U?"  Part="2" 
-AR Path="/601B4C11/6019E3A6" Ref="U12"  Part="2" 
-AR Path="/601B73BA/6019E3A6" Ref="U28"  Part="2" 
-F 0 "U28" H 6000 3433 50  0000 C CNN
+AR Path="/601B4C11/6019E3A6" Ref="U15"  Part="2" 
+AR Path="/601B73BA/6019E3A6" Ref="U24"  Part="2" 
+F 0 "U24" H 6000 3433 50  0000 C CNN
 F 1 "TL084" H 6000 3524 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5950 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6050 4000 50  0001 C CNN
@@ -271,24 +271,6 @@ F 3 "~" H 1450 1950 50  0001 C CNN
 	1    1450 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L PNG_PCB_Parts:Mux U?
-U 2 1 60198F2C
-P 3350 2050
-AR Path="/60132BC3/6013AE22/60198F2C" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/60198F2C" Ref="U?"  Part="1" 
-AR Path="/6017DA21/60198F2C" Ref="U?"  Part="1" 
-AR Path="/601927EB/60198F2C" Ref="#U05"  Part="2" 
-AR Path="/6019DBCE/60198F2C" Ref="U?"  Part="2" 
-AR Path="/601B4C11/60198F2C" Ref="#U016"  Part="2" 
-AR Path="/601B73BA/60198F2C" Ref="#U026"  Part="2" 
-F 0 "#U026" H 3375 2515 50  0000 C CNN
-F 1 "Mux" H 3375 2424 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3350 2050 50  0001 C CNN
-	2    3350 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 1800 1000 1800
 Text Label 1000 1800 0    50   ~ 0
@@ -336,11 +318,11 @@ P 1450 2750
 AR Path="/60132BC3/6013AE22/60198F2E" Ref="U?"  Part="1" 
 AR Path="/6017CC5E/60198F2E" Ref="U?"  Part="2" 
 AR Path="/6017DA21/60198F2E" Ref="U?"  Part="1" 
-AR Path="/601927EB/60198F2E" Ref="U8"  Part="1" 
+AR Path="/601927EB/60198F2E" Ref="U7"  Part="1" 
 AR Path="/6019DBCE/60198F2E" Ref="U?"  Part="1" 
-AR Path="/601B4C11/60198F2E" Ref="U18"  Part="1" 
-AR Path="/601B73BA/60198F2E" Ref="U29"  Part="1" 
-F 0 "U29" H 1508 2884 50  0000 L CNN
+AR Path="/601B4C11/60198F2E" Ref="U16"  Part="1" 
+AR Path="/601B73BA/60198F2E" Ref="U25"  Part="1" 
+F 0 "U25" H 1508 2884 50  0000 L CNN
 F 1 "screw_term" H 1508 2793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 2750 50  0001 C CNN
 F 3 "" H 1450 2750 50  0001 C CNN
@@ -412,11 +394,11 @@ P 1450 1800
 AR Path="/60132BC3/6013AE22/6019A2A3" Ref="U?"  Part="1" 
 AR Path="/6017CC5E/6019A2A3" Ref="U?"  Part="2" 
 AR Path="/6017DA21/6019A2A3" Ref="U?"  Part="1" 
-AR Path="/601927EB/6019A2A3" Ref="U2"  Part="2" 
+AR Path="/601927EB/6019A2A3" Ref="U4"  Part="2" 
 AR Path="/6019DBCE/6019A2A3" Ref="U?"  Part="2" 
-AR Path="/601B4C11/6019A2A3" Ref="U18"  Part="2" 
-AR Path="/601B73BA/6019A2A3" Ref="U29"  Part="2" 
-F 0 "U29" H 1508 1934 50  0000 L CNN
+AR Path="/601B4C11/6019A2A3" Ref="U13"  Part="2" 
+AR Path="/601B73BA/6019A2A3" Ref="U22"  Part="2" 
+F 0 "U22" H 1508 1934 50  0000 L CNN
 F 1 "screw_term" H 1508 1843 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 1800 50  0001 C CNN
 F 3 "" H 1450 1800 50  0001 C CNN
@@ -431,11 +413,11 @@ P 1450 3750
 AR Path="/60132BC3/6013AE22/6019E3B8" Ref="U?"  Part="1" 
 AR Path="/6017CC5E/6019E3B8" Ref="U?"  Part="2" 
 AR Path="/6017DA21/6019E3B8" Ref="U?"  Part="1" 
-AR Path="/601927EB/6019E3B8" Ref="U4"  Part="2" 
+AR Path="/601927EB/6019E3B8" Ref="U7"  Part="2" 
 AR Path="/6019DBCE/6019E3B8" Ref="U?"  Part="2" 
-AR Path="/601B4C11/6019E3B8" Ref="U19"  Part="2" 
-AR Path="/601B73BA/6019E3B8" Ref="U30"  Part="2" 
-F 0 "U30" H 1508 3884 50  0000 L CNN
+AR Path="/601B4C11/6019E3B8" Ref="U16"  Part="2" 
+AR Path="/601B73BA/6019E3B8" Ref="U25"  Part="2" 
+F 0 "U25" H 1508 3884 50  0000 L CNN
 F 1 "screw_term" H 1508 3793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 3750 50  0001 C CNN
 F 3 "" H 1450 3750 50  0001 C CNN
@@ -443,4 +425,18 @@ F 3 "" H 1450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1450 3750
+$Comp
+L PNG_PCB_Parts:Mux U5
+U 2 1 6017859B
+P 3350 2050
+AR Path="/601927EB/6017859B" Ref="U5"  Part="2" 
+AR Path="/601B4C11/6017859B" Ref="U14"  Part="2" 
+AR Path="/601B73BA/6017859B" Ref="U23"  Part="2" 
+F 0 "U23" H 3375 2515 50  0000 C CNN
+F 1 "Mux" H 3375 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
+F 3 "" H 3350 2050 50  0001 C CNN
+	2    3350 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -38,9 +38,9 @@ AR Path="/60132BC3/6013AE22/6019D566" Ref="U?"  Part="1"
 AR Path="/6017CC5E/6019D566" Ref="U?"  Part="1" 
 AR Path="/6017DA21/6019D566" Ref="U?"  Part="1" 
 AR Path="/601927EB/6019D566" Ref="U?"  Part="1" 
-AR Path="/6019C043/6019D566" Ref="U12"  Part="3" 
-AR Path="/601B4C16/6019D566" Ref="U7"  Part="3" 
-F 0 "U7" H 6000 3433 50  0000 C CNN
+AR Path="/6019C043/6019D566" Ref="U6"  Part="3" 
+AR Path="/601B4C16/6019D566" Ref="U15"  Part="3" 
+F 0 "U15" H 6000 3433 50  0000 C CNN
 F 1 "TL084" H 6000 3524 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5950 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6050 4000 50  0001 C CNN
@@ -260,23 +260,6 @@ F 3 "~" H 1450 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PNG_PCB_Parts:Mux U?
-U 1 1 6019D558
-P 3350 2050
-AR Path="/60132BC3/6013AE22/6019D558" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/6019D558" Ref="U?"  Part="1" 
-AR Path="/6017DA21/6019D558" Ref="U?"  Part="1" 
-AR Path="/601927EB/6019D558" Ref="U?"  Part="1" 
-AR Path="/6019C043/6019D558" Ref="#U010"  Part="1" 
-AR Path="/601B4C16/6019D558" Ref="#U021"  Part="1" 
-F 0 "#U021" H 3375 2515 50  0000 C CNN
-F 1 "Mux" H 3375 2424 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
-F 3 "" H 3350 2050 50  0001 C CNN
-	1    3350 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L PNG_PCB_Parts:screw_term U?
 U 1 1 6019D557
 P 1450 1800
@@ -284,9 +267,9 @@ AR Path="/60132BC3/6013AE22/6019D557" Ref="U?"  Part="1"
 AR Path="/6017CC5E/6019D557" Ref="U?"  Part="1" 
 AR Path="/6017DA21/6019D557" Ref="U?"  Part="1" 
 AR Path="/601927EB/6019D557" Ref="U?"  Part="1" 
-AR Path="/6019C043/6019D557" Ref="U3"  Part="1" 
-AR Path="/601B4C16/6019D557" Ref="U19"  Part="1" 
-F 0 "U19" H 1508 1934 50  0000 L CNN
+AR Path="/6019C043/6019D557" Ref="U8"  Part="1" 
+AR Path="/601B4C16/6019D557" Ref="U17"  Part="1" 
+F 0 "U17" H 1508 1934 50  0000 L CNN
 F 1 "screw_term" H 1508 1843 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 1800 50  0001 C CNN
 F 3 "" H 1450 1800 50  0001 C CNN
@@ -340,9 +323,9 @@ AR Path="/60132BC3/6013AE22/6019D55A" Ref="U?"  Part="1"
 AR Path="/6017CC5E/6019D55A" Ref="U?"  Part="2" 
 AR Path="/6017DA21/6019D55A" Ref="U?"  Part="1" 
 AR Path="/601927EB/6019D55A" Ref="U?"  Part="2" 
-AR Path="/6019C043/6019D55A" Ref="U9"  Part="2" 
-AR Path="/601B4C16/6019D55A" Ref="U20"  Part="2" 
-F 0 "U20" H 1508 2884 50  0000 L CNN
+AR Path="/6019C043/6019D55A" Ref="U8"  Part="2" 
+AR Path="/601B4C16/6019D55A" Ref="U17"  Part="2" 
+F 0 "U17" H 1508 2884 50  0000 L CNN
 F 1 "screw_term" H 1508 2793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 2750 50  0001 C CNN
 F 3 "" H 1450 2750 50  0001 C CNN
@@ -397,8 +380,8 @@ AR Path="/6017CC5E/6017798F" Ref="U?"  Part="1"
 AR Path="/6017DA21/6017798F" Ref="U?"  Part="1" 
 AR Path="/601927EB/6017798F" Ref="U?"  Part="1" 
 AR Path="/6019C043/6017798F" Ref="U9"  Part="1" 
-AR Path="/601B4C16/6017798F" Ref="U20"  Part="1" 
-F 0 "U20" H 1508 3884 50  0000 L CNN
+AR Path="/601B4C16/6017798F" Ref="U18"  Part="1" 
+F 0 "U18" H 1508 3884 50  0000 L CNN
 F 1 "screw_term" H 1508 3793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 3750 50  0001 C CNN
 F 3 "" H 1450 3750 50  0001 C CNN
@@ -423,21 +406,6 @@ Text Label 2700 1950 0    50   ~ 0
 mux1
 Text Label 2700 2150 0    50   ~ 0
 mux2
-$Comp
-L PNG_PCB_Parts:Mux U?
-U 3 1 6019D562
-P 5700 2100
-AR Path="/6017CC5E/6019D562" Ref="U?"  Part="3" 
-AR Path="/601927EB/6019D562" Ref="U?"  Part="3" 
-AR Path="/6019C043/6019D562" Ref="#U011"  Part="3" 
-AR Path="/601B4C16/6019D562" Ref="#U022"  Part="3" 
-F 0 "#U022" H 5928 2221 50  0000 L CNN
-F 1 "TL084" H 5928 2130 50  0000 L CNN
-F 2 "" H 5700 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5700 2100 50  0001 C CNN
-	3    5700 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2300 5700 2300
 Connection ~ 5700 2300
@@ -479,4 +447,30 @@ Text HLabel 5200 1950 0    50   Input ~ 0
 selA
 Text HLabel 5200 2050 0    50   Input ~ 0
 selB
+$Comp
+L PNG_PCB_Parts:Mux U19
+U 1 1 601763C1
+P 3350 2050
+AR Path="/601B4C16/601763C1" Ref="U19"  Part="1" 
+AR Path="/6019C043/601763C1" Ref="U10"  Part="1" 
+F 0 "U19" H 3375 2515 50  0000 C CNN
+F 1 "Mux" H 3375 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
+F 3 "" H 3350 2050 50  0001 C CNN
+	1    3350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNG_PCB_Parts:Mux U19
+U 3 1 60176BAF
+P 5700 2100
+AR Path="/601B4C16/60176BAF" Ref="U19"  Part="3" 
+AR Path="/6019C043/60176BAF" Ref="U10"  Part="3" 
+F 0 "U19" H 5928 2221 50  0000 L CNN
+F 1 "Mux" H 5928 2130 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5700 2100 50  0001 C CNN
+F 3 "" H 5700 2100 50  0001 C CNN
+	3    5700 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

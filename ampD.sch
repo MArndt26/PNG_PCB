@@ -346,9 +346,9 @@ AR Path="/60132BC3/6013AE22/6019A6B5" Ref="U?"  Part="1"
 AR Path="/6017CC5E/6019A6B5" Ref="U?"  Part="2" 
 AR Path="/6017DA21/6019A6B5" Ref="U?"  Part="1" 
 AR Path="/601927EB/6019A6B5" Ref="U?"  Part="2" 
-AR Path="/6019DBCE/6019A6B5" Ref="U14"  Part="2" 
-AR Path="/601B4C19/6019A6B5" Ref="U24"  Part="2" 
-F 0 "U24" H 1508 3884 50  0000 L CNN
+AR Path="/6019DBCE/6019A6B5" Ref="U11"  Part="2" 
+AR Path="/601B4C19/6019A6B5" Ref="U20"  Part="2" 
+F 0 "U20" H 1508 3884 50  0000 L CNN
 F 1 "screw_term" H 1508 3793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 3750 50  0001 C CNN
 F 3 "" H 1450 3750 50  0001 C CNN
@@ -364,9 +364,9 @@ AR Path="/6017CC5E/6019A2A3" Ref="U?"  Part="2"
 AR Path="/6017DA21/6019A2A3" Ref="U?"  Part="1" 
 AR Path="/601927EB/6019A2A3" Ref="U?"  Part="2" 
 AR Path="/6019DBCE/6019A2A3" Ref="U?"  Part="2" 
-AR Path="/6019DBCE/6019E3B7" Ref="U13"  Part="2" 
-AR Path="/601B4C19/6019E3B7" Ref="U23"  Part="2" 
-F 0 "U23" H 1508 1934 50  0000 L CNN
+AR Path="/6019DBCE/6019E3B7" Ref="U9"  Part="2" 
+AR Path="/601B4C19/6019E3B7" Ref="U18"  Part="2" 
+F 0 "U18" H 1508 1934 50  0000 L CNN
 F 1 "screw_term" H 1508 1843 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 1800 50  0001 C CNN
 F 3 "" H 1450 1800 50  0001 C CNN
@@ -382,31 +382,13 @@ AR Path="/6017CC5E/60198F2E" Ref="U?"  Part="2"
 AR Path="/6017DA21/60198F2E" Ref="U?"  Part="1" 
 AR Path="/601927EB/60198F2E" Ref="U?"  Part="1" 
 AR Path="/6019DBCE/60198F2E" Ref="U?"  Part="1" 
-AR Path="/6019DBCE/6019E3B0" Ref="U13"  Part="1" 
-AR Path="/601B4C19/6019E3B0" Ref="U23"  Part="1" 
-F 0 "U23" H 1508 2884 50  0000 L CNN
+AR Path="/6019DBCE/6019E3B0" Ref="U11"  Part="1" 
+AR Path="/601B4C19/6019E3B0" Ref="U20"  Part="1" 
+F 0 "U20" H 1508 2884 50  0000 L CNN
 F 1 "screw_term" H 1508 2793 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 2750 50  0001 C CNN
 F 3 "" H 1450 2750 50  0001 C CNN
 	1    1450 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L PNG_PCB_Parts:Mux U?
-U 2 1 6019E3AE
-P 3350 2050
-AR Path="/60132BC3/6013AE22/60198F2C" Ref="U?"  Part="1" 
-AR Path="/6017CC5E/60198F2C" Ref="U?"  Part="1" 
-AR Path="/6017DA21/60198F2C" Ref="U?"  Part="1" 
-AR Path="/601927EB/60198F2C" Ref="U?"  Part="2" 
-AR Path="/6019DBCE/60198F2C" Ref="U?"  Part="2" 
-AR Path="/6019DBCE/6019E3AE" Ref="#U010"  Part="2" 
-AR Path="/601B4C19/6019E3AE" Ref="#U021"  Part="2" 
-F 0 "#U021" H 3375 2515 50  0000 C CNN
-F 1 "Mux" H 3375 2424 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3350 2050 50  0001 C CNN
-	2    3350 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -417,13 +399,26 @@ AR Path="/60132BC3/6013AE22/6017E42E" Ref="U?"  Part="1"
 AR Path="/6017CC5E/6017E42E" Ref="U?"  Part="1" 
 AR Path="/6017DA21/6017E42E" Ref="U?"  Part="1" 
 AR Path="/601927EB/6017E42E" Ref="U?"  Part="2" 
-AR Path="/6019DBCE/6017E42E" Ref="U12"  Part="4" 
-AR Path="/601B4C19/6017E42E" Ref="U7"  Part="4" 
-F 0 "U7" H 6000 3433 50  0000 C CNN
+AR Path="/6019DBCE/6017E42E" Ref="U6"  Part="4" 
+AR Path="/601B4C19/6017E42E" Ref="U15"  Part="4" 
+F 0 "U15" H 6000 3433 50  0000 C CNN
 F 1 "TL084" H 6000 3524 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5950 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6050 4000 50  0001 C CNN
 	4    6000 3800
 	1    0    0    1   
+$EndComp
+$Comp
+L PNG_PCB_Parts:Mux U10
+U 2 1 6017A5CD
+P 3350 2050
+AR Path="/6019DBCE/6017A5CD" Ref="U10"  Part="2" 
+AR Path="/601B4C19/6017A5CD" Ref="U19"  Part="2" 
+F 0 "U19" H 3375 2515 50  0000 C CNN
+F 1 "Mux" H 3375 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
+F 3 "" H 3350 2050 50  0001 C CNN
+	2    3350 2050
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

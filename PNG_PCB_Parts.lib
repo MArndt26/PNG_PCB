@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF Mux U 0 40 Y Y 3 L P
 F0 "U" 0 0 50 H V C CNN
 F1 "Mux" 0 0 50 H V C CNN
-F2 "Package_DIP:DIP-14_W7.62mm" 0 0 50 H I C CNN
+F2 "Package_DIP:DIP-16_W7.62mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -400 250 200 -100 3 1 0 N

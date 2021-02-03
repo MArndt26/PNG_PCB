@@ -226,10 +226,6 @@ $EndComp
 Wire Wire Line
 	7300 3050 7100 3050
 NoConn ~ 7300 3950
-Wire Wire Line
-	7300 3250 6700 3250
-Text Label 6700 3250 0    50   ~ 0
-sync_in
 Text Label 1150 850  0    50   ~ 0
 selA
 Text Label 1150 950  0    50   ~ 0
@@ -358,14 +354,6 @@ Wire Wire Line
 	2500 6450 3250 6450
 Text Label 3250 6450 2    50   ~ 0
 ADC_IN_9
-Text Label 5900 4300 2    50   ~ 0
-sync_in
-Wire Wire Line
-	7300 1750 6700 1750
-Text Label 6700 1750 0    50   ~ 0
-sync_out
-Text Label 5900 4200 2    50   ~ 0
-sync_out
 NoConn ~ 9500 2950
 NoConn ~ 9500 3050
 NoConn ~ 9500 3150
@@ -377,19 +365,6 @@ NoConn ~ 9500 3650
 NoConn ~ 9500 3750
 NoConn ~ 9500 3850
 NoConn ~ 9500 3950
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 601A940A
-P 5050 4200
-F 0 "J1" H 5158 4381 50  0000 C CNN
-F 1 "screw terminal" H 5158 4290 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 4200 50  0001 C CNN
-F 3 "~" H 5050 4200 50  0001 C CNN
-	1    5050 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 4200 5900 4200
-Wire Wire Line
-	5250 4300 5900 4300
+NoConn ~ 7300 1750
+NoConn ~ 7300 3250
 $EndSCHEMATC

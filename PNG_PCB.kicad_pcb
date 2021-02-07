@@ -383,7 +383,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60202C1E)
-    (at 342.026 123.598)
+    (at 225.298 55.118 180)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /601B73BA/602069C8)
@@ -408,9 +408,9 @@
     (fp_line (start -0.95 1.05) (end 6.03 1.05) (layer F.CrtYd) (width 0.05))
     (fp_line (start 6.03 1.05) (end 6.03 -1.05) (layer F.CrtYd) (width 0.05))
     (fp_line (start 6.03 -1.05) (end -0.95 -1.05) (layer F.CrtYd) (width 0.05))
-    (pad 2 thru_hole oval (at 5.08 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 5.08 0 180) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 61 /ampB2/V1))
-    (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0 180) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 6 +3V3))
     (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl
       (at (xyz 0 0 0))
@@ -753,7 +753,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187A30)
-    (at 251.206 59.436)
+    (at 223.52 42.164)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B73BA/601A1EB0/60194E45)
@@ -793,7 +793,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601879EA)
-    (at 511.76 68.38)
+    (at 215.392 42.418)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B73BA/601A1EAB/60194E45)
@@ -833,7 +833,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601879A4)
-    (at 488.98 94.28)
+    (at 229.87 40.132)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B73BA/601A1EA6/60194E45)
@@ -873,7 +873,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018795E)
-    (at 434.98 163.04)
+    (at 224.79 78.74)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B73B7/6019BDB6/60194E45)
@@ -913,7 +913,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187918)
-    (at 516.36 147.22)
+    (at 219.964 88.392)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B73B7/6019B999/60194E45)
@@ -953,7 +953,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601878D2)
-    (at 460.02 110.13)
+    (at 214.122 80.264)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B73B7/60194350/60194E45)
@@ -993,7 +993,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018788C)
-    (at 486.24 80.23)
+    (at 205.74 183.896)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C19/601A6FD6/60194E45)
@@ -1033,7 +1033,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187846)
-    (at 490.19 162.89)
+    (at 209.296 195.58)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C19/601A6FD1/60194E45)
@@ -1073,7 +1073,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187800)
-    (at 421.64 114.3)
+    (at 188.214 193.802)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C19/601A6FCC/60194E45)
@@ -1113,7 +1113,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601877BA)
-    (at 489.13 66.18)
+    (at 248.158 179.832)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C16/601A47B4/60194E45)
@@ -1153,7 +1153,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187774)
-    (at 450.07 106.98)
+    (at 254.254 192.024)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C16/601A47AF/60194E45)
@@ -1193,7 +1193,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018772E)
-    (at 516.51 133.17)
+    (at 245.11 204.216)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C16/601A47AA/60194E45)
@@ -1233,7 +1233,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601876E8)
-    (at 506.41 131.64)
+    (at 268.478 234.696)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C11/601A1EB0/60194E45)
@@ -1273,7 +1273,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601876A2)
-    (at 463.61 80.23)
+    (at 274.066 257.556)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C11/601A1EAB/60194E45)
@@ -1313,7 +1313,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018765C)
-    (at 487.45 148.84)
+    (at 274.828 227.33)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C11/601A1EA6/60194E45)
@@ -1353,7 +1353,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187616)
-    (at 453.82 69.33)
+    (at 331.978 233.934)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C0E/6019BDB6/60194E45)
@@ -1393,7 +1393,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601875D0)
-    (at 483.78 131.64)
+    (at 321.056 230.124)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C0E/6019B999/60194E45)
@@ -1433,7 +1433,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018758A)
-    (at 521.56 98.01)
+    (at 322.834 240.284)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601B4C0E/60194350/60194E45)
@@ -1473,7 +1473,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187544)
-    (at 525.5 158.12)
+    (at 353.568 231.902)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6019DBCE/601A6FD6/60194E45)
@@ -1513,7 +1513,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601874FE)
-    (at 535.45 175.32)
+    (at 398.526 249.174)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6019DBCE/601A6FD1/60194E45)
@@ -1553,7 +1553,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601874B8)
-    (at 457.46 179.97)
+    (at 359.918 244.602)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6019DBCE/601A6FCC/60194E45)
@@ -1593,7 +1593,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187472)
-    (at 521.71 83.96)
+    (at 400.812 226.314)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6019C043/601A47B4/60194E45)
@@ -1633,7 +1633,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018742C)
-    (at 457.61 165.92)
+    (at 350.52 240.03)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6019C043/601A47AF/60194E45)
@@ -1672,8 +1672,8 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601873E6)
-    (at 511.61 96.48)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60203E70)
+    (at 401.32 239.522)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6019C043/601A47AA/60194E45)
@@ -1713,7 +1713,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601873A0)
-    (at 535.45 161.27)
+    (at 451.612 219.964)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601927EB/601A1EB0/60194E45)
@@ -1753,7 +1753,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6018735A)
-    (at 457.61 151.87)
+    (at 450.85 239.268)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601927EB/601A1EAB/60194E45)
@@ -1793,7 +1793,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187314)
-    (at 538.99 147.22)
+    (at 452.374 201.422)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /601927EB/601A1EA6/60194E45)
@@ -1833,7 +1833,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 601872CE)
-    (at 498.93 85.58)
+    (at 492.76 225.552)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6017CC5E/6019BDB6/60194E45)
@@ -1873,7 +1873,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187288)
-    (at 521.71 69.91)
+    (at 493.014 241.046)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6017CC5E/6019B999/60194E45)
@@ -1913,7 +1913,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60187242)
-    (at 464.82 140.97)
+    (at 515.62 231.14)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6017CC5E/60194350/60194E45)
@@ -2211,7 +2211,7 @@
   )
 
   (module Package_DIP:DIP-16_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6018869D)
-    (at 210.058 204.47)
+    (at 295.148 231.394)
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /601B4C0E/6016DEDC)
@@ -2279,7 +2279,7 @@
   )
 
   (module Package_DIP:DIP-16_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 60188679)
-    (at 209.296 243.586)
+    (at 377.19 234.95)
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /6019C043/601763C1)
@@ -2411,7 +2411,7 @@
   )
 
   (module Package_DIP:DIP-16_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 60188633)
-    (at 228.346 223.52)
+    (at 471.17 222.504)
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /6017CC5E/6016DEDC)
@@ -4245,7 +4245,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60187D20)
-    (at 291.308 67.276)
+    (at 304.516 78.706)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /6019C043/6019D567)
@@ -4282,7 +4282,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60187D0D)
-    (at 283.278 73.576)
+    (at 296.486 85.006)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /6019C043/60198F28)
@@ -4319,7 +4319,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60187CFA)
-    (at 283.278 70.426)
+    (at 296.486 81.856)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /6019C043/60198F34)
@@ -4356,7 +4356,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60187CE7)
-    (at 283.278 67.276)
+    (at 296.486 78.706)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /6019C043/6019D55D)
@@ -4393,7 +4393,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60187CD4)
-    (at 291.308 64.126)
+    (at 304.516 75.556)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /6019C043/6017E434)
@@ -4429,8 +4429,8 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60187CC1)
-    (at 282.194 62.992)
+  (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 60203067)
+    (at 295.402 74.422)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
     (path /6019C043/6017E433)

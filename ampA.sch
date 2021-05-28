@@ -302,8 +302,8 @@ AR Path="/601B4C0E/6016DEDC" Ref="U5"  Part="1"
 AR Path="/601B73B7/6016DEDC" Ref="U8"  Part="1" 
 F 0 "U2" H 3375 2515 50  0000 C CNN
 F 1 "Mux" H 3375 2424 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 2050 50  0001 C CNN
-F 3 "" H 3350 2050 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3350 2050 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/vishay-siliconix/DG409LEDY-GE3/5995262" H 3350 2050 50  0001 C CNN
 	1    3350 2050
 	1    0    0    -1  
 $EndComp
@@ -316,8 +316,8 @@ AR Path="/601B4C0E/6016F806" Ref="U5"  Part="3"
 AR Path="/601B73B7/6016F806" Ref="U8"  Part="3" 
 F 0 "U2" H 5928 2221 50  0000 L CNN
 F 1 "Mux" H 5928 2130 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 5700 2100 50  0001 C CNN
-F 3 "" H 5700 2100 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5700 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/vishay-siliconix/DG409LEDY-GE3/5995262" H 5700 2100 50  0001 C CNN
 	3    5700 2100
 	1    0    0    -1  
 $EndComp

@@ -26,7 +26,7 @@ AR Path="/601B4C0E/6019D565" Ref="R34"  Part="1"
 AR Path="/601B73B7/6019D565" Ref="R62"  Part="1" 
 F 0 "R6" H 5520 4096 50  0000 L CNN
 F 1 "15" H 5520 4005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5380 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 4050 50  0001 C CNN
 F 3 "~" H 5450 4050 50  0001 C CNN
 	1    5450 4050
 	1    0    0    -1  
@@ -46,7 +46,7 @@ AR Path="/601B4C0E/60198F32" Ref="R35"  Part="1"
 AR Path="/601B73B7/60198F32" Ref="R63"  Part="1" 
 F 0 "R7" V 5743 3250 50  0000 C CNN
 F 1 "15" V 5834 3250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5880 3250 50  0001 C CNN
 F 3 "~" H 5950 3250 50  0001 C CNN
 	1    5950 3250
 	0    1    1    0   
@@ -64,7 +64,7 @@ AR Path="/601B4C0E/6017E431" Ref="R32"  Part="1"
 AR Path="/601B73B7/6017E431" Ref="R60"  Part="1" 
 F 0 "R4" V 5307 3700 50  0000 C CNN
 F 1 "1" V 5216 3700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5030 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 3700 50  0001 C CNN
 F 3 "~" H 5100 3700 50  0001 C CNN
 	1    5100 3700
 	0    -1   -1   0   
@@ -100,7 +100,7 @@ AR Path="/601B4C0E/6019D568" Ref="R33"  Part="1"
 AR Path="/601B73B7/6019D568" Ref="R61"  Part="1" 
 F 0 "R5" V 5000 3900 50  0000 C CNN
 F 1 "1" V 4900 3900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5030 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 3900 50  0001 C CNN
 F 3 "~" H 5100 3900 50  0001 C CNN
 	1    5100 3900
 	0    1    -1   0   
@@ -133,7 +133,7 @@ AR Path="/601B4C0E/6019D55E" Ref="R29"  Part="1"
 AR Path="/601B73B7/6019D55E" Ref="R57"  Part="1" 
 F 0 "R1" H 3320 3546 50  0000 L CNN
 F 1 "560" H 3320 3455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3180 3500 50  0001 C CNN
 F 3 "~" H 3250 3500 50  0001 C CNN
 	1    3250 3500
 	1    0    0    -1  
@@ -151,7 +151,7 @@ AR Path="/601B4C0E/6019D55F" Ref="R30"  Part="1"
 AR Path="/601B73B7/6019D55F" Ref="R58"  Part="1" 
 F 0 "R2" H 3320 3846 50  0000 L CNN
 F 1 "300" H 3320 3755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3180 3800 50  0001 C CNN
 F 3 "~" H 3250 3800 50  0001 C CNN
 	1    3250 3800
 	1    0    0    -1  
@@ -409,7 +409,7 @@ AR Path="/601B4C0E/60202CFB" Ref="R31"  Part="1"
 AR Path="/601B73B7/60202CFB" Ref="R59"  Part="1" 
 F 0 "R3" H 3720 1796 50  0000 L CNN
 F 1 "560" H 3720 1705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3580 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3580 1750 50  0001 C CNN
 F 3 "~" H 3650 1750 50  0001 C CNN
 	1    3650 1750
 	1    0    0    -1  

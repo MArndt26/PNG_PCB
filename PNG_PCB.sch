@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 41
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Football Datalogger PCB"
+Date "2021-05-28"
+Rev "2.0"
+Comp "Purdue Neurotrauma Group"
+Comment1 "Created by: Mitchell Arndt"
 Comment2 ""
 Comment3 ""
 Comment4 ""

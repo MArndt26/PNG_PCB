@@ -253,7 +253,7 @@ AR Path="/601B4C11/6018C8DB" Ref="U6"  Part="2"
 AR Path="/601B73BA/6018C8DB" Ref="U9"  Part="2" 
 F 0 "U3" H 6000 4167 50  0000 C CNN
 F 1 "MCP6004" H 6000 4076 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5950 3900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5950 3900 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6050 4000 50  0001 C CNN
 	2    6000 3800
 	1    0    0    -1  

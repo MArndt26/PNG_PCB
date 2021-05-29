@@ -330,7 +330,7 @@ AR Path="/601B4C0E/60189002" Ref="U6"  Part="1"
 AR Path="/601B73B7/60189002" Ref="U9"  Part="1" 
 F 0 "U3" H 6000 4167 50  0000 C CNN
 F 1 "MCP6004" H 6000 4076 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5950 3900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5950 3900 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6050 4000 50  0001 C CNN
 	1    6000 3800
 	1    0    0    -1  
@@ -344,7 +344,7 @@ AR Path="/601B4C0E/6018B5B8" Ref="U6"  Part="5"
 AR Path="/601B73B7/6018B5B8" Ref="U9"  Part="5" 
 F 0 "U3" H 7208 2096 50  0000 L CNN
 F 1 "MCP6004" H 7208 2005 50  0000 L CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7200 2150 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7200 2150 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7300 2250 50  0001 C CNN
 	5    7250 2050
 	1    0    0    -1  

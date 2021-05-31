@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 41
+Sheet 2 21
 Title ""
 Date ""
 Rev ""
@@ -350,34 +350,18 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7300 2250 50 
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1000 1800 550  200 
+S 1000 1850 550  350 
 U 60194350
-F0 "sensora0" 50
+F0 "sensora" 50
 F1 "sensor.sch" 50
-F2 "Vsense" I R 1550 1900 50 
+F2 "Vsense0" I R 1550 1900 50 
+F3 "Vsense1" I R 1550 2000 50 
+F4 "Vsense2" I R 1550 2100 50 
 $EndSheet
-Wire Wire Line
-	1550 2550 2000 2550
-Text Label 2000 2550 2    50   ~ 0
+Text Label 2000 2000 2    50   ~ 0
 mux1
-$Sheet
-S 1000 2450 550  200 
-U 6019B999
-F0 "sensora1" 50
-F1 "sensor.sch" 50
-F2 "Vsense" I R 1550 2550 50 
-$EndSheet
-Wire Wire Line
-	1550 3200 2000 3200
-Text Label 2000 3200 2    50   ~ 0
+Text Label 2000 2100 2    50   ~ 0
 mux2
-$Sheet
-S 1000 3100 550  200 
-U 6019BDB6
-F0 "sensora2" 50
-F1 "sensor.sch" 50
-F2 "Vsense" I R 1550 3200 50 
-$EndSheet
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6019D560
@@ -437,4 +421,8 @@ Wire Wire Line
 	3650 2050 3850 2050
 Wire Wire Line
 	3650 1900 3650 2050
+Wire Wire Line
+	1550 2000 2000 2000
+Wire Wire Line
+	1550 2100 2000 2100
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 41
+Sheet 4 21
 Title ""
 Date ""
 Rev ""
@@ -13,14 +13,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3900 3900 2    50   Input ~ 0
-Vsense
+Text HLabel 5200 3700 2    50   Input ~ 0
+Vsense0
 Text Notes 3900 3050 0    50   ~ 0
 Note: Strain Gauge connected\nacross screw terminals
 $Comp
 L power:GND #PWR?
 U 1 1 60194B46
-P 3900 4000
+P 5650 4250
 AR Path="/60132BC3/6013AE22/60194B46" Ref="#PWR?"  Part="1" 
 AR Path="/6017CC5E/60194B46" Ref="#PWR?"  Part="1" 
 AR Path="/6017DA21/60194B46" Ref="#PWR?"  Part="1" 
@@ -58,52 +58,40 @@ AR Path="/6019DBCE/601A6FD6/60194B46" Ref="#PWR041"  Part="1"
 AR Path="/601B4C19/601A6FCC/60194B46" Ref="#PWR073"  Part="1" 
 AR Path="/601B4C19/601A6FD1/60194B46" Ref="#PWR074"  Part="1" 
 AR Path="/601B4C19/601A6FD6/60194B46" Ref="#PWR075"  Part="1" 
-F 0 "#PWR016" H 3900 3750 50  0001 C CNN
-F 1 "GND" H 3905 3827 50  0000 C CNN
-F 2 "" H 3900 4000 50  0001 C CNN
-F 3 "" H 3900 4000 50  0001 C CNN
-	1    3900 4000
+F 0 "#PWR017" H 5650 4000 50  0001 C CNN
+F 1 "GND" H 5655 4077 50  0000 C CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J1
-U 1 1 60B3291B
-P 3700 4000
-AR Path="/6017CC5E/60194350/60B3291B" Ref="J1"  Part="1" 
-AR Path="/6017CC5E/6019B999/60B3291B" Ref="J2"  Part="1" 
-AR Path="/6017CC5E/6019BDB6/60B3291B" Ref="J3"  Part="1" 
-AR Path="/601927EB/601A1EA6/60B3291B" Ref="J4"  Part="1" 
-AR Path="/601927EB/601A1EAB/60B3291B" Ref="J5"  Part="1" 
-AR Path="/601927EB/601A1EB0/60B3291B" Ref="J6"  Part="1" 
-AR Path="/6019C043/601A47AA/60B3291B" Ref="J7"  Part="1" 
-AR Path="/6019C043/601A47AF/60B3291B" Ref="J8"  Part="1" 
-AR Path="/6019C043/601A47B4/60B3291B" Ref="J9"  Part="1" 
-AR Path="/6019DBCE/601A6FCC/60B3291B" Ref="J10"  Part="1" 
-AR Path="/6019DBCE/601A6FD1/60B3291B" Ref="J11"  Part="1" 
-AR Path="/6019DBCE/601A6FD6/60B3291B" Ref="J12"  Part="1" 
-AR Path="/601B4C0E/60194350/60B3291B" Ref="J13"  Part="1" 
-AR Path="/601B4C0E/6019B999/60B3291B" Ref="J14"  Part="1" 
-AR Path="/601B4C0E/6019BDB6/60B3291B" Ref="J15"  Part="1" 
-AR Path="/601B4C11/601A1EA6/60B3291B" Ref="J16"  Part="1" 
-AR Path="/601B4C11/601A1EAB/60B3291B" Ref="J17"  Part="1" 
-AR Path="/601B4C11/601A1EB0/60B3291B" Ref="J18"  Part="1" 
-AR Path="/601B4C16/601A47AA/60B3291B" Ref="J19"  Part="1" 
-AR Path="/601B4C16/601A47AF/60B3291B" Ref="J20"  Part="1" 
-AR Path="/601B4C16/601A47B4/60B3291B" Ref="J21"  Part="1" 
-AR Path="/601B4C19/601A6FCC/60B3291B" Ref="J22"  Part="1" 
-AR Path="/601B4C19/601A6FD1/60B3291B" Ref="J23"  Part="1" 
-AR Path="/601B4C19/601A6FD6/60B3291B" Ref="J24"  Part="1" 
-AR Path="/601B73B7/60194350/60B3291B" Ref="J25"  Part="1" 
-AR Path="/601B73B7/6019B999/60B3291B" Ref="J26"  Part="1" 
-AR Path="/601B73B7/6019BDB6/60B3291B" Ref="J27"  Part="1" 
-AR Path="/601B73BA/601A1EA6/60B3291B" Ref="J28"  Part="1" 
-AR Path="/601B73BA/601A1EAB/60B3291B" Ref="J29"  Part="1" 
-AR Path="/601B73BA/601A1EB0/60B3291B" Ref="J30"  Part="1" 
-F 0 "J1" H 3592 3675 50  0000 C CNN
-F 1 "connector" H 3592 3766 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3700 4000 50  0001 C CNN
-F 3 "~" H 3700 4000 50  0001 C CNN
-	1    3700 4000
-	-1   0    0    1   
+L Connector:Conn_01x06_Female J?
+U 1 1 60B45C6C
+P 5000 3900
+F 0 "J?" H 4892 4285 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 4892 4194 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Pico-Clasp_202396-0607_1x06-1MP_P1.00mm_Horizontal" H 5000 3900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/molex/5013300600/1531503?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIAnAAxUgC6Avg4QExkgCsVYAzDzQDYa9BkA" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5200 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 4000
+Connection ~ 5650 4000
+Wire Wire Line
+	5650 4000 5650 4200
+Wire Wire Line
+	5200 4000 5650 4000
+Connection ~ 5650 4200
+Wire Wire Line
+	5650 4200 5650 4250
+Wire Wire Line
+	5200 4200 5650 4200
+Text HLabel 5200 3900 2    50   Input ~ 0
+Vsense1
+Text HLabel 5200 4100 2    50   Input ~ 0
+Vsense2
 $EndSCHEMATC

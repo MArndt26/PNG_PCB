@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 41
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -252,34 +252,18 @@ Wire Wire Line
 Text Label 2000 1900 2    50   ~ 0
 mux0
 $Sheet
-S 1000 1800 550  200 
+S 1000 1800 550  400 
 U 601A6FCC
 F0 "sensord0" 50
 F1 "sensor.sch" 50
-F2 "Vsense" I R 1550 1900 50 
+F2 "Vsense0" I R 1550 1900 50 
+F3 "Vsense1" I R 1550 2000 50 
+F4 "Vsense2" I R 1550 2100 50 
 $EndSheet
-Wire Wire Line
-	1550 2550 2000 2550
-Text Label 2000 2550 2    50   ~ 0
+Text Label 2000 2000 2    50   ~ 0
 mux1
-$Sheet
-S 1000 2450 550  200 
-U 601A6FD1
-F0 "sensord1" 50
-F1 "sensor.sch" 50
-F2 "Vsense" I R 1550 2550 50 
-$EndSheet
-Wire Wire Line
-	1550 3200 2000 3200
-Text Label 2000 3200 2    50   ~ 0
+Text Label 2000 2100 2    50   ~ 0
 mux2
-$Sheet
-S 1000 3100 550  200 
-U 601A6FD6
-F0 "sensord2" 50
-F1 "sensor.sch" 50
-F2 "Vsense" I R 1550 3200 50 
-$EndSheet
 $Comp
 L power:+3.3V #PWR?
 U 1 1 60204FC0
@@ -319,4 +303,8 @@ F 3 "~" H 3650 1700 50  0001 C CNN
 	1    3650 1700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2000 2000 1550 2000
+Wire Wire Line
+	1550 2100 2000 2100
 $EndSCHEMATC

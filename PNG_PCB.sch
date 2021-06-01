@@ -367,4 +367,37 @@ NoConn ~ 9500 3850
 NoConn ~ 9500 3950
 NoConn ~ 7300 1750
 NoConn ~ 7300 3250
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 60B5A3B5
+P 4700 5500
+F 0 "BT?" H 4818 5596 50  0000 L CNN
+F 1 "Battery_Cell" H 4818 5505 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 4700 5560 50  0001 C CNN
+F 3 "~" V 4700 5560 50  0001 C CNN
+	1    4700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B5A5A9
+P 4700 5600
+F 0 "#PWR?" H 4700 5350 50  0001 C CNN
+F 1 "GND" H 4705 5427 50  0000 C CNN
+F 2 "" H 4700 5600 50  0001 C CNN
+F 3 "" H 4700 5600 50  0001 C CNN
+	1    4700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60B5A6A3
+P 4700 5300
+F 0 "#PWR?" H 4700 5150 50  0001 C CNN
+F 1 "+3V3" H 4715 5473 50  0000 C CNN
+F 2 "" H 4700 5300 50  0001 C CNN
+F 3 "" H 4700 5300 50  0001 C CNN
+	1    4700 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -368,10 +368,10 @@ NoConn ~ 9500 3950
 NoConn ~ 7300 1750
 NoConn ~ 7300 3250
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 60B5A3B5
 P 4700 5500
-F 0 "BT?" H 4818 5596 50  0000 L CNN
+F 0 "BT1" H 4818 5596 50  0000 L CNN
 F 1 "Battery_Cell" H 4818 5505 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 4700 5560 50  0001 C CNN
 F 3 "~" V 4700 5560 50  0001 C CNN
@@ -379,10 +379,10 @@ F 3 "~" V 4700 5560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 60B5A5A9
 P 4700 5600
-F 0 "#PWR?" H 4700 5350 50  0001 C CNN
+F 0 "#PWR0101" H 4700 5350 50  0001 C CNN
 F 1 "GND" H 4705 5427 50  0000 C CNN
 F 2 "" H 4700 5600 50  0001 C CNN
 F 3 "" H 4700 5600 50  0001 C CNN
@@ -390,14 +390,25 @@ F 3 "" H 4700 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0102
 U 1 1 60B5A6A3
 P 4700 5300
-F 0 "#PWR?" H 4700 5150 50  0001 C CNN
+F 0 "#PWR0102" H 4700 5150 50  0001 C CNN
 F 1 "+3V3" H 4715 5473 50  0000 C CNN
 F 2 "" H 4700 5300 50  0001 C CNN
 F 3 "" H 4700 5300 50  0001 C CNN
 	1    4700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:ESP32-WROOM-32U U10
+U 1 1 60B5E875
+P 4800 2550
+F 0 "U10" H 4800 4131 50  0000 C CNN
+F 1 "ESP32-WROOM-32U" H 4800 4040 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32U" H 4800 1050 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 4500 2600 50  0001 C CNN
+	1    4800 2550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
